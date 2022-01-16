@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\interpolation">
+      <UniqueIdentifier>{14a065f3-4cb1-4831-8131-36699c7b2e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\interpolation">
+      <UniqueIdentifier>{57bb3cd0-f2ba-41d3-af81-37c1fc35d1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\integration">
+      <UniqueIdentifier>{187628c4-d513-4000-8981-9f2e012fe494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\integration">
+      <UniqueIdentifier>{cbffa292-f3e4-465d-8ada-f58428dbd2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{194e1797-91e0-4e4b-b96a-5a5da00e9b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ODE">
+      <UniqueIdentifier>{00f7cc22-b0dd-41d2-b35e-23334b23b23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ODE">
+      <UniqueIdentifier>{6ce91873-7036-48fc-88c8-99a9ce83df05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ODEs">
+      <UniqueIdentifier>{f20b07a5-ff0a-46aa-a97f-113d9a34014d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ODEs">
+      <UniqueIdentifier>{7fba36b6-6227-4949-9ac9-0b8ce1836d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{23a11924-07ec-4665-b008-1bee92794ac5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lagrange_inter.cpp">
+      <Filter>源文件\interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="newton_inter.cpp">
+      <Filter>源文件\interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="cotes_integ.cpp">
+      <Filter>源文件\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="composite_integ.cpp">
+      <Filter>源文件\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="guass_integ.cpp">
+      <Filter>源文件\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="romber_integ.cpp">
+      <Filter>源文件\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="adapt_integ.cpp">
+      <Filter>源文件\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="euler.cpp">
+      <Filter>源文件\ODE</Filter>
+    </ClCompile>
+    <ClCompile Include="RK.cpp">
+      <Filter>源文件\ODE</Filter>
+    </ClCompile>
+    <ClCompile Include="RKs.cpp">
+      <Filter>源文件\ODEs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inter_base.h">
+      <Filter>头文件\interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="lagrange_inter.h">
+      <Filter>头文件\interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="newton_inter.h">
+      <Filter>头文件\interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="integ_base.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="cotes_integ.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="composite_integ.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="guass_integ.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="integ_factory.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="romber_integ.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="adapt_integ.h">
+      <Filter>头文件\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="ODE.h">
+      <Filter>头文件\ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="euler.h">
+      <Filter>头文件\ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="dont_opt_away.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="RK.h">
+      <Filter>头文件\ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="ODEs.h">
+      <Filter>头文件\ODEs</Filter>
+    </ClInclude>
+    <ClInclude Include="RKs.h">
+      <Filter>头文件\ODEs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
