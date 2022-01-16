@@ -125,9 +125,12 @@ public:
 		m_row(1),
 		m_col(vector.size()),
 		m_size(vector.size()),
-		m_data(vector.data())
 	{
-		vector.data() = nullptr;
+		if (m_size > 0)
+		{
+			m_data = vector.data();
+			vector.data() = nullptr;
+		}
 	}
 
 	// copy constructor with 2D-vector params
@@ -182,7 +185,8 @@ public:
 	{
 		if (m_size > 0)
 		{
-
+			m_data = vector.data();
+			vector.data() = nullptr;
 		}
 	}
 
